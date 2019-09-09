@@ -1,0 +1,15 @@
+[package]
+name = "openstacks_server"
+version = "0.1.0"
+authors = ["Brandon Dyer <brandon.dyer@ruralsourcing.com>"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.2"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+
+[dependencies.rocket_contrib]
+default-features = false
+features = ["json"]
